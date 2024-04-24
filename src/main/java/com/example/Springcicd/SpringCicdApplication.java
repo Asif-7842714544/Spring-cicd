@@ -1,9 +1,7 @@
 package com.example.Springcicd;
 
-import com.fasterxml.jackson.databind.type.LogicalType;
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,6 +11,7 @@ public class SpringCicdApplication {
 
     public static void main(String[] args) {
         log.info("Application executed........");
+        log.info("just checking");
         SpringApplication.run(SpringCicdApplication.class, args);
     }
 
